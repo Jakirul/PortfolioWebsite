@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<title>Jakirul Islam's Portfolio.</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+	
+
+	
+  <header class="front" id="1">
+    <div class="container front-inner">
+      <h1>Jakirul Islam</h1>
+      <p>2nd Year Computer Science Student studying at City, University of London.</p>
+      <button class="button1" href="#2" ><a href="#2" class="btn">My Projects</a></button>
+    </div>
+  </header>
+
+  <div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		  <div id="caption"></div>
+		</div>
+
+  <header class="projects" id="2">
+
+
+    <div class="container2 projects-inner">
+    	<h1 overflow="hidden">My Projects</h1>
+
+
+	<!-- The Modal -->
+		
+
+
+    	<div class="clearfix">
+      		<img class="img1" id="myImg1" src="images/abstract.png" alt="Abstract Art Project" width="300" height="250">
+      		<h5>An 'Abstract Art' Project I did in the start of my University year. Requires Processing to work.</h5>
+      		<br><button class="button3" onclick="window.open('https://github.com/Jakirul/AbstractArt','_blank')">GitHub Link</button>
+      	</div>
+
+      	<div class="clearfix">
+      		<img class="img1"   id="myImg2" src="images/shoesite.png" alt="Shoe Website Project" width="300" height="250">
+      		<h5 >Website Project for University where I made a website to 'sell' shoes. Uses HTML/CSS/JavaScript/SprintBoot.</h5>
+      		<br><button class="button3" onclick="window.open('https://github.com/Jakirul/WebsiteProject','_blank')">GitHub Link</button>
+      	</div>
+
+      	<div class="clearfix">
+      		<img class="img1"  id="myImg3" src="images/mariogame.png" alt="Pineapple" width="300" height="250">
+      		<h5>This is a 2D platform game I created using some of the characters from the Mario franchise. Uses Java and the 'CityEngine' Engine</h5>
+      		<br><button class="button3" onclick="window.open('https://github.com/Jakirul/Mario-Game','_blank')">GitHub Link</button>
+      	</div>
+
+      	<div class="clearfix">
+      		<img class="img1"  id="myImg4" src="images/portfolio.jpg" alt="Pineapple" width="300" height="250">
+      		<h5>This is my current portfolio website. It currently uses HTML, CSS and JavaScript.  </h5>
+      		<br><button class="button3">GitHub Link</button>
+      	</div>
+
+
+
+
+
+  
+  		<button class="button2" href="#2" ><a  class="btn" onclick="window.open('https://github.com/Jakirul/','_blank')">View More of My Projects!</a></button>
+    </div>
+  <footer>
+
+  Jakirul Islam
+<img src="images/github.png" width="50px" height="50px" onclick=" window.open('https://github.com/Jakirul/','_blank')">
+<img src="images/email.png" width="35px" height="35px" onclick=" window.open('mailto:jakirul.islam@live.co.uk','_blank')">
+
+</footer>
+
+
+</div>
+
+
+  </header>
+
+
+
+  
+  
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg1");
+var img2 = document.getElementById("myImg2");
+var img3 = document.getElementById("myImg3");
+var img4 = document.getElementById("myImg4");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+img2.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+img3.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+img4.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
