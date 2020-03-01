@@ -18,7 +18,10 @@
     <div class="container front-inner">
       <h1>Jakirul Islam</h1>
       <p>2nd Year Computer Science Student studying at City, University of London.</p>
-      <button class="button1" href="#2" ><a href="#2" class="btn">My Projects</a></button>
+      <div class="buttons">
+      <button class="button1" onClick="document.getElementById('2').scrollIntoView();">My Projects</button>
+	 <button class="button0" onClick="document.getElementById('3').scrollIntoView();">My Skills</button>
+	</div>
     </div>
   </header>
 
@@ -60,7 +63,7 @@
       	<div class="clearfix">
       		<img class="img1"  id="myImg4" src="images/portfolio.jpg" alt="Portfolio Website" width="300" height="250">
       		<h5>This is my current portfolio website. It currently uses HTML, CSS and JavaScript.  </h5>
-      		<br><button class="button3">GitHub Link</button>
+      		<br><button class="button3" onclick="window.open('https://github.com/Jakirul/PortfolioWebsite','_blank')">GitHub Link</button>
       	</div>
 
 
@@ -70,15 +73,46 @@
   
   		<button class="button2" href="#2" ><a  class="btn" onclick="window.open('https://github.com/Jakirul/','_blank')">View More of My Projects!</a></button>
     </div>
-  <footer>
-
-  Jakirul Islam
-<img src="images/github.png" width="50px" height="50px" onclick=" window.open('https://github.com/Jakirul/','_blank')">
-<img src="images/email.png" width="35px" height="35px" onclick=" window.open('mailto:jakirul.islam@live.co.uk','_blank')">
-
-</footer>
+ 
 
 
+</div>
+
+</header>
+
+
+  </header>
+
+   <header class="back" id="3">
+    <h1 class = "skillh1" overflow="hidden">My Skills</h1>
+
+
+	<div class="wrapper">
+    <div class="skillbar" data-percent="55%">
+        <div class="skillbar-title">HTML and CSS</div>
+        <div class="skill-bar-percent">85%</div>
+        <div class="skillbar-bar" style="width: 85%;"></div>
+    </div>
+    <div class="skillbar" data-percent="11%">
+        <div class="skillbar-title">JavaScript</div>
+        <div class="skill-bar-percent">45%</div>
+        <div class="skillbar-bar" style="width: 45%;"></div>
+    </div>
+    <div class="skillbar" data-percent="40%">
+        <div class="skillbar-title">Java</div>
+        <div class="skill-bar-percent">65%</div>
+        <div class="skillbar-bar" style="width: 65%;"></div>
+    </div>
+    <div class="skillbar" data-percent="70%">
+        <div class="skillbar-title">SQL</div>
+        <div class="skill-bar-percent">55%</div>
+        <div class="skillbar-bar" style="width: 55%;"></div>
+    </div>
+     <div class="skillbar" data-percent="70%">
+        <div class="skillbar-title">UML</div>
+        <div class="skill-bar-percent">75%</div>
+        <div class="skillbar-bar" style="width: 75%;"></div>
+    </div>
 </div>
 
 
@@ -86,9 +120,18 @@
 
 
 
-  
-  
 
+
+  
+  
+ <footer>
+
+  Jakirul Islam
+<img src="images/github.png" width="30px" height="30px"onclick=" window.open('https://github.com/Jakirul/','_blank')">
+<img src="images/email.png" width="35px" height="35px"  onclick=" window.open('mailto:jakirul.islam@live.co.uk','_blank')">
+<img src="images/linkedin.png" id="footer3" width="30px" height="30px" margin="50px" onclick=" window.open('https://www.linkedin.com/in/jakirul/','_blank')">
+
+</footer>
 
 
 <script>
