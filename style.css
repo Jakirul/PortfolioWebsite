@@ -7,8 +7,7 @@
 html {
   scroll-behavior: smooth;
   --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51 , 0.85);
-  
+  --overlay-color: rgba(24, 39, 51, 0.85);
 }
 
 table {
@@ -16,11 +15,11 @@ table {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.4;
-  height : 100%;
-  overflow : scroll;
-  -webkit-overflow-scrolling : touch;
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 /*FRONT SECTION STARTS HERE */
@@ -32,7 +31,6 @@ body {
   padding: 0 3rem;
 }
 
-
 .front {
   background: var(--primary-color);
   color: #fff;
@@ -41,8 +39,8 @@ body {
 }
 
 .front:before {
-  content: '';
-  background: url('images/code.jpg') no-repeat center center/cover;
+  content: "";
+  background: url("images/code.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,14 +49,14 @@ body {
   z-index: -1;
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
+
   /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
+
   /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
@@ -83,30 +81,24 @@ body {
 
 /*FRONT SECTION ENDS HERE */
 
-
-
 /*PROJECT SECTION STARTS HERE */
 
 .container2 {
-  
   margin: auto;
   overflow: hidden;
   padding: 0 3rem;
   max-width: 50rem;
-
 }
 
 .projects {
   background: var(--primary-color);
   color: #fff;
   position: relative;
-
-  
 }
 
 .projects:before {
-  content: '';
-  background: url('images/project.jpg') no-repeat fixed top center;
+  content: "";
+  background: url("images/project.jpg") no-repeat fixed top center;
   position: absolute;
   top: 0;
   left: 0;
@@ -115,20 +107,17 @@ body {
   z-index: -1;
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
+
   /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
+
   /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
-
-  
-  
 }
 
 .projects .projects-inner {
@@ -137,25 +126,18 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-
- 
-
 }
 
 .projects h1 {
   font-size: 4rem;
-
 }
 
 .projects p {
   font-size: 1.3rem;
 }
 
-
-
 .button0 {
-
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 10px 25px;
@@ -163,11 +145,11 @@ body {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
-
+  margin-bottom: 5px;
 }
 
 .button1 {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 10px 25px;
@@ -175,13 +157,10 @@ body {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
-  
 }
 
-
-
 .button2 {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   text-align: center;
@@ -190,11 +169,10 @@ body {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .button3 {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   text-align: center;
@@ -202,25 +180,30 @@ body {
   font-size: 16px;
   padding: 5px;
   border-radius: 5px;
-
 }
 
+.clearfix0 {
+  border: 3px solid #4caf50;
+  margin: 2px;
+}
 
 .clearfix {
-
-  border: 3px solid #4CAF50;
+  border: 3px solid #4caf50;
   margin: 5px;
-
-
 }
 
 .img1 {
   float: left;
-
 }
 
 h5 {
-  padding-top:50px;
+  padding-top: 50px;
+}
+
+.clearfix0::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .clearfix::after {
@@ -233,21 +216,16 @@ h5 {
   float: left;
 }
 
-
 /*PROJECT SECTION ENDS HERE */
 
-footer{
-   background: var(--primary-color);
+footer {
+  background: var(--primary-color);
   text-align: center;
   padding: 5px;
   color: white;
-
-
 }
 
-
 /*SKILL SECTION STARTS HERE */
-
 
 .back {
   background: var(--primary-color);
@@ -257,8 +235,8 @@ footer{
 }
 
 .back:before {
-  content: '';
-  background: url('images/code2.jpg') no-repeat center center/cover;
+  content: "";
+  background: url("images/code2.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -267,14 +245,14 @@ footer{
   z-index: -1;
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
+
   /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
+
   /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
@@ -292,76 +270,81 @@ footer{
 .back h1 {
   font-size: 4rem;
   text-align: center;
-
 }
-
 
 .back p {
   font-size: 1.3rem;
 }
 
-
 .skillbar-bar:before {
-    background: #111;
-    content: "";
-    height: 3px;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-
+  background: #111;
+  content: "";
+  height: 3px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 .skillbar-bar {
-    height: 3px;
-    width: 0px;
-    background: #ccc;
+  height: 3px;
+  width: 0px;
+  background: #ccc;
 
-    transition-property: width, background-color;
-  }
+  transition-property: width, background-color;
+}
 
 .skillbar-title {
-    color: #999;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    display: inline-block;
-  }
+  color: #999;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
 
 .skill-bar-percent {
-    float: right;
-    display: inline-block;
-    color: #999;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
+  float: right;
+  display: inline-block;
+  color: #999;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 /* CENTERING ONLY */
 
 .wrapper {
-    position: absolute;
-    width: 80%;
-    margin-top: 100px;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-  }
+  position: absolute;
+  width: 80%;
+  margin-top: 100px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 
 /*SKILL SECTION ENDS HERE */
 
-
-
 /* JavaScript Pop Up Images Code */
 
-#myImg1, #myImg2, #myImg3, #myImg4 {
+#myImg1,
+#myImg2,
+#myImg3,
+#myImg4 {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg1:hover {opacity: 0.7;}
-#myImg2:hover {opacity: 0.7;}
-#myImg3:hover {opacity: 0.7;}
-#myImg4:hover {opacity: 0.7;}
+#myImg1:hover {
+  opacity: 0.7;
+}
+#myImg2:hover {
+  opacity: 0.7;
+}
+#myImg3:hover {
+  opacity: 0.7;
+}
+#myImg4:hover {
+  opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
@@ -374,8 +357,8 @@ footer{
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
@@ -399,7 +382,8 @@ footer{
 }
 
 /* Add Animation */
-.modal-content, #caption {  
+.modal-content,
+#caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -407,13 +391,21 @@ footer{
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 /* The Close Button */
@@ -435,19 +427,16 @@ footer{
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
 
-
-
-.card  {
+.card {
   background-color: transparent !important;
   border: 0px solid !important;
 }
-
 
 .panel {
   border-radius: 0.3rem;
@@ -473,4 +462,42 @@ footer{
   border: 1px solid #7f51f4;
   background-color: #dfccff;
   color: #7f51f4;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+.nametitle {
+  border-right: solid 3px rgba(0, 255, 0, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Animation */
+.nametitle {
+  animation: animated-text 3s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 410px;
+  }
+}
+
+/* cursor animations */
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(0, 255, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
